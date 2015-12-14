@@ -12,9 +12,9 @@ So, our org is working on implementing a field that will count all outbound call
 
 One awesome outcome would be to only call on contacts where the number of dials on that contact is < 11 (11 seems to be our orgs cut off point. If you haven't gotten a demo in 11 calls, then you should probably find a different contact or let that contact (and Account) rest. 
 
-You could populate your Inside Sales power dialer with untouched contacts (or minimally touched contacts). Or you could apply this formula to emails outreaches and see how many emails are having the best amount of success.
+You could populate your Inside Sales power dialer with untouched contacts (or minimally touched contacts). Or you could apply this formula to emails outreaches and see how many emails are having the best level of success.
 
-Since you can't really derive these insights through workflow/validation rules (salesforce point & click processes), I wrote an Apex Trigger to solve the problem.  
+Since you cannot derive these insights through workflow/validation rules (salesforce point & click processes), I wrote an Apex Trigger to solve the problem.  
 
 Below is the apex trigger I wrote which essentially counts all tasks that are 'completed' AND task type = 'call' and increments a number field (Number_of_Dials_on_Contact). You could add other criteria to only count calls that quarter or in the last "N" months or so. You can check out how to manipulate your SOQL queries [here] (https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm). 
 
