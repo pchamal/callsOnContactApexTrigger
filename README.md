@@ -12,7 +12,7 @@ After a certain number of calls, you should really just give that contact a rest
 
 So, our org is working on implementing a field that will count all outbound calls on any account and increment the numeric value of field by one (integer++ FTW!!). Having a set field that aggregates this data will allow us to run some pretty awesome reports. 
 
-One awesome outcome would be to only call on contacts where the number of dials on that contact is < 11 (11 seems to be our orgs cut off point. If you haven't gotten a demo in 11 calls, then you should probably find a different contact or let that contact(and Account) rest. 
+One awesome outcome would be to only call on contacts where the number of dials on that contact is < 11 (11 seems to be our orgs cut off point. If you haven't gotten a demo in 11 calls, then you should probably find a different contact or let that contact (and Account) rest. 
 
 You could populate your Inside Sales power dialer with untouched contacts (or minimally touched contacts). 
 
@@ -52,3 +52,5 @@ for (Task t: Trigger.new) {
    }
  ```
  
+####Let me know if you have any questions about this. 
+Reach me at [p.hpukar@gmail.com](p.hpukar@gmail.com)
