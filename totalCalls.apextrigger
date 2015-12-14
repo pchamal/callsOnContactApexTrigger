@@ -1,0 +1,29 @@
+trigger totalCalls on Task (after insert) {
+set<String> whoIDs = new Set<String>();
+for (Task t: Trigger.new) {
+        whoIds.add(t.WhoId);
+    }
+    List <Contact> cons = [SELECT Id, Number_of_Dials_on_Contact__c FROM Contact WHERE Id =: whoIds]; 
+    Map <String, Task> TaskMap = new Map<String, Task> (); 
+
+    for (Task t : Trigger.new) {
+    List<Task> tasks = [SELECT Id,Type,Status FROM Task WHERE (whoId = : t.whoId) AND (ActivityDate=LAST_N_MONTHS:2)]; //LAST_N_MONTHS will allow us to only account for activity that occurred in the last 60 days. 
+
+    integer numDials = 0;
+
+    for (Task a: tasks) {
+    if (a.Status.equals('Completed') && a.Type.equals('Call')) { 
+
+    numDials++;
+                } //the heart of the code, this takes task "a" which falls in the criteria of Status=completed (task must be completed) AND type=call. 
+            }
+
+    for (Contact c: cons) {
+    if (c.Id == t.whoId) {
+     c.Number_of_Dials_on_Contact__c = numDials; //takes the integer value from numDials and puts it in the appropriate field, in this case Number_of_Dials_on_Contact
+                }
+            }
+        }
+
+       update cons;
+   }
