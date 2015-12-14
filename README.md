@@ -2,7 +2,7 @@
 
 I love the [The law of diminishing returns] (http://www.investopedia.com/terms/l/lawofdiminishingmarginalreturn.asp). 
 
-Calling me an irrational dork but it definitely ranks in my top 3.14 Economic laws.
+Go ahead call me an irrational dork but it definitely ranks in my top 3.14 Economic laws.
 
 ![alt text](http://vignette2.wikia.nocookie.net/economics/images/d/dd/Marginal_Utility.JPG/revision/latest?cb=20060726191218 "Diminishing Returns Graph")
 
