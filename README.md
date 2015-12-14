@@ -1,8 +1,6 @@
 ## SFDC Trigger for counting calls on a Contact Object
 
-I love the [The law of diminishing returns] (http://www.investopedia.com/terms/l/lawofdiminishingmarginalreturn.asp). 
-
-Go ahead call me an irrational dork but it definitely ranks in my top 3.14 Economic laws.
+I love the [The law of diminishing returns] (http://www.investopedia.com/terms/l/lawofdiminishingmarginalreturn.asp). Go ahead, call me an irrational dork but it definitely ranks in my top 3.14 Economic laws.
 
 ![alt text](http://vignette2.wikia.nocookie.net/economics/images/d/dd/Marginal_Utility.JPG/revision/latest?cb=20060726191218 "Diminishing Returns Graph")
 
