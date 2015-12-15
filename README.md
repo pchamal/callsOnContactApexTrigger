@@ -6,11 +6,11 @@ I love the [The law of diminishing returns] (http://www.investopedia.com/terms/l
 
 Anyways, you can literally apply this law over and over again when you are doing SaaS sales. One pretty obvious application of this is around cold calling on your contacts. 
 
-After a certain number of calls, you should really just give that contact a rest and move on to the next one. Opportunity cost is everything when you are trying to be a efficient and highly productive sales org. 
+After a certain number of calls, you should really just give that contact a rest and move on to the next one. Opportunity cost is everything when you are trying to be an efficient and highly productive sales org. 
 
 So, our org is working on implementing a field that will count all outbound calls on any contact and increment the numeric value of field by one (integer++ FTW!!). Having a set field that aggregates this data will allow us to run some pretty awesome reports. 
 
-One awesome outcome would be to only call on contacts where the number of dials on that contact is < 11 (11 seems to be our orgs cut off point. If you haven't gotten a demo in 11 calls, then you should probably find a different contact or let that contact (and Account) rest. 
+One awesome outcome would be to only call on contacts where the number of dials on that contact is < 11 (11 seems to be our org's cut off point. If you haven't gotten a demo in 11 calls, then you should probably find a different contact or let that contact (and Account) rest for a while. 
 
 You could populate your Inside Sales power dialer with untouched contacts (or minimally touched contacts). Or you could apply this formula to emails outreaches and see how many emails are having the best level of success.
 
